@@ -17,4 +17,6 @@ export default function Results(props) {
     return null;
    }
 
+   //Pexels API Key: VKUaIbSCfLNTDRHdOC2x074gm4xBiRdP4gGUkt9ocoKL9fqzzwStBS5T
+
 }
