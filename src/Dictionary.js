@@ -8,16 +8,24 @@ let [word, setWord] = useState("");
 let [results, setResults] = useState(null);
 
 
-function handleResponse(response) {
-console.log(response.data);
+function handleDictionaryResponse(response) {
 setResults(response.data);
+}
+
+function handlePexelsResponse(response) {
+console.log(response);
 }
 
 function handleSubmit(event)  {
 event.preventDefault();
 let apiKey = `6dt04340acdo33333a0be9731ef54b37`;
 let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=${apiKey}`;
-axios.get(apiUrl).then(handleResponse);
+axios.get(apiUrl).then(handleDictionaryResponse);
+
+let pexelsApiKey = `VKUaIbSCfLNTDRHdOC2x074gm4xBiRdP4gGUkt9ocoKL9fqzzwStBS5T`;
+let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=1`;
+axios.get(pexelsApiUrl, { headers: { Authorization: `Bearer ${pexelsApiKey}` } }).then(handlePexelsResponse);
+
 }
 
 
