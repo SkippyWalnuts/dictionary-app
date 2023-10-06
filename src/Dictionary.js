@@ -43,7 +43,7 @@ return (
             <input type="search" 
             placeholder="Enter your word here" 
             autoFocus={true}
-            autoComplete="false"
+            autoComplete="off"
             onChange={logWord}
             id="enter-word"></input>
             <input type="submit" value="Submit"></input>
