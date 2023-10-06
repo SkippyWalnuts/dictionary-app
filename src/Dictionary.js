@@ -15,7 +15,6 @@ setResults(response.data);
 }
 
 function handlePexelsResponse(response) {
-console.log(response);
 setPhotos(response.data.photos);
 }
 
@@ -50,7 +49,7 @@ return (
             <input type="submit" value="Submit"></input>
         </form>
         <Results results={results} />
-        <Photos photos={photos} />
+        <Photos photos={photos} alt={word} />
     </div>
 );
 }
