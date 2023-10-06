@@ -23,8 +23,9 @@ let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${word}&key=${ap
 axios.get(apiUrl).then(handleDictionaryResponse);
 
 let pexelsApiKey = `VKUaIbSCfLNTDRHdOC2x074gm4xBiRdP4gGUkt9ocoKL9fqzzwStBS5T`;
-let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=1`;
-axios.get(pexelsApiUrl, { headers: { Authorization: `Bearer ${pexelsApiKey}` } }).then(handlePexelsResponse);
+let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=9`;
+let headers = { Authorization: `${pexelsApiKey}` };
+axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
 
 }
 
