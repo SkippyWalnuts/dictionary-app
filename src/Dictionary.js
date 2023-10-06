@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
+import Photos from "./Photos";
 import "./Dictionary.css";
 
 export default function Dictionary() {
 let [word, setWord] = useState("");
 let [results, setResults] = useState(null);
+let [photos, setPhotos] = useState(null);
 
 
 function handleDictionaryResponse(response) {
@@ -14,6 +16,7 @@ setResults(response.data);
 
 function handlePexelsResponse(response) {
 console.log(response);
+setPhotos(response.data.photos);
 }
 
 function handleSubmit(event)  {
@@ -46,7 +49,8 @@ return (
             id="enter-word"></input>
             <input type="submit" value="Submit"></input>
         </form>
-        <Results data={results}/>
+        <Results results={results} />
+        <Photos photos={photos} />
     </div>
 );
 }
