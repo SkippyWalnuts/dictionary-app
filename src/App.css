@@ -1,6 +1,19 @@
+.App body {
+  max-width: 500px;
+}
+
+.App .mouth-img {
+    max-width: 200px;
+    display: block;
+    margin: 20px auto 0;
+}
+
 .App h1 {
+  color: #251ac7;
+  font-family: 'Merriweather', serif;
   font-size: 60px;
-  font-weight: bolder;
-  margin: 150px auto 30px;
+  font-weight: 550;
+  margin: 10px auto 30px;
   text-align: center;
 }
+
