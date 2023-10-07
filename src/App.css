@@ -1,5 +1,5 @@
-.App body {
-  max-width: 500px;
+body {
+  background: #C4B0FF;
 }
 
 .App .mouth-img {
@@ -9,11 +9,15 @@
 }
 
 .App h1 {
-  color: #251ac7;
+  background: rgb(67, 225, 252, 0.7);
+  border: solid 2px #8696FE;
+  border-radius: 25px;
+  color: rgb(37, 26, 199);
   font-family: 'Merriweather', serif;
   font-size: 60px;
   font-weight: 550;
-  margin: 10px auto 30px;
+  margin: 10px 40px 20px;
+  padding: 10px;
   text-align: center;
 }
 
