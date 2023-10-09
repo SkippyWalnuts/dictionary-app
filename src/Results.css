@@ -3,6 +3,8 @@
     font-size: 40px;
 }
 
-.Results .Meaning {
+.Results .Meaning h4 {
     font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
 }
+

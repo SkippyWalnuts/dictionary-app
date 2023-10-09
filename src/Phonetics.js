@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function Phonetics(props) {
-    return <p>{props.phonetic}</p>;
+    return (
+    <div className="Phonetics">
+        <h3><span id="microphone">🎙{" "}</span>{props.phonetic}</h3>
+        </div>
+);
+
 }
