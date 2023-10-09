@@ -2,13 +2,14 @@ body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/619/original/library-img.jpg?1696844746");
   background-repeat: no-repeat;
   background-size: cover;
+  min-width: 480px;
     
 }
 
 .App {
   background-color: rgb(255, 255, 255, 0.6);
   color: #3f3d56;
-  margin: 100px 50px;
+  margin: 150px 100px;
   padding: 50px;
  
 }
@@ -20,11 +21,37 @@ body {
     margin: 0 auto;
 }
 
+.App .App-Content {
+  background-color: rgb(204, 204, 204, 0.8);
+  border-radius: 2px;
+  padding: 20px;
+}
+
 .App h1 {
   font-family: 'Merriweather', serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 550;
-  padding: 10px;
+  line-height: 1;
+  letter-spacing: 3px;
   text-align: center;
 }
 
+@media (max-width: 760px) {
+
+.App {
+  margin: 80px 10px;
+}
+
+.App .App-Content {
+  padding: 15px;
+}
+
+.App h1 {
+  font-size: 45px;
+}
+
+
+}
+
+
+  
