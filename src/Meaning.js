@@ -3,9 +3,10 @@ import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
       return (
-        <div className="Meaning">
+        <div className="Meaning m-2">
             <h4>{props.partOfSpeech}</h4>
-           <p>{props.definition}<em>{props.example}</em></p>
+           <p>{props.definition}</p>
+           <p><em>{props.example}</em></p>
            
             <Synonyms synonyms={props.synonyms}/>
         </div>

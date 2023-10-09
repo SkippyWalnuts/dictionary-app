@@ -54,13 +54,13 @@ return (
 <h1>Swallow<div>-A-</div>Dictionary</h1>
 <form onSubmit={handleSubmit} id="search-form" className="search-form">
 <input type="search" 
-placeholder="Search word here..."
+placeholder="Enter word here..."
 className="form-entry" 
 autoFocus={true}
 autoComplete="off"
 onChange={logWord}
 id="enter-word"></input>
-<input type="submit" value="Submit" className="form-btn"></input>
+<input type="submit" value="Swallow" className="form-btn"></input>
 </form>
 </div>
 <Results results={results} />
