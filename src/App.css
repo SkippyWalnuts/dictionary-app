@@ -1,22 +1,29 @@
 body {
-  background: #C4B0FF;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/619/original/library-img.jpg?1696844746");
+  background-repeat: no-repeat;
+  background-size: cover;
+    
 }
 
-.App .mouth-img {
+.App {
+  background-color: rgb(255, 255, 255, 0.6);
+  color: #3f3d56;
+  margin: 100px 50px;
+  padding: 50px;
+ 
+}
+
+
+.App .reading-img {
     max-width: 200px;
     display: block;
-    margin: 20px auto 0;
+    margin: 0 auto;
 }
 
 .App h1 {
-  background: rgb(67, 225, 252, 0.7);
-  border: solid 2px #8696FE;
-  border-radius: 25px;
-  color: rgb(37, 26, 199);
   font-family: 'Merriweather', serif;
   font-size: 60px;
   font-weight: 550;
-  margin: 10px 40px 20px;
   padding: 10px;
   text-align: center;
 }

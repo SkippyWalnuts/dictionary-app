@@ -5,10 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <img src="/images/mouth-dictionary.png" className="img-fluid mouth-img" alt="mouth speaking"></img>
+      <img src="/images/book_undraw1.svg" className="img-fluid reading-img" alt="person reading"></img>
+      <div className="App-Text">
       <h1>Swallow-A-Dictionary</h1>
       <Dictionary />
-      
+      </div>
     </div>
   );
 }
