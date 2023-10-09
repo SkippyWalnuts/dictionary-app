@@ -39,9 +39,11 @@ function logWord(event)  {
 
 return (
     <div className="Dictionary">
-        <form onSubmit={handleSubmit} id="search-form">
+        <div className="Hero">
+        <h1>Swallow<div>-A-</div>Dictionary</h1>
+        <form onSubmit={handleSubmit} id="search-form" className="search-form">
             <input type="search" 
-            placeholder="Enter your word here"
+            placeholder="Search word here..."
             className="form-entry" 
             autoFocus={true}
             autoComplete="off"
@@ -49,6 +51,7 @@ return (
             id="enter-word"></input>
             <input type="submit" value="Submit" className="form-btn"></input>
         </form>
+        </div>
         <Results results={results} />
         <Photos photos={photos} alt={word} />
     </div>

@@ -8,38 +8,42 @@ body {
 
 .App {
   background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 4px;
   color: #3f3d56;
-  margin: 100px 100px;
-  padding: 50px;
+  display: block;
+  margin: 100px auto;
+  max-width: 700px;
+  padding: 20px 50px 30px;
  
 }
 
 
 .App .reading-img {
-    max-width: 200px;
+    max-width: 160px;
     display: block;
     margin: 0 auto;
 }
 
-.App .App-Content {
-  background-color: rgb(204, 204, 204, 0.8);
-  border-radius: 2px;
-  padding: 20px;
-}
 
 .App h1 {
   font-family: 'Merriweather', serif;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 550;
   line-height: 1;
   letter-spacing: 3px;
+  margin: 10px;
   text-align: center;
 }
 
 @media (max-width: 760px) {
 
+    body {
+        margin: 10px;
+    }
+
 .App {
-  margin: 80px 10px;
+
+  max-width: 600px;
 }
 
 .App .App-Content {
@@ -47,7 +51,7 @@ body {
 }
 
 .App h1 {
-  font-size: 45px;
+  font-size: 50px;
 }
 
 
