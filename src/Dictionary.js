@@ -41,12 +41,13 @@ return (
     <div className="Dictionary">
         <form onSubmit={handleSubmit} id="search-form">
             <input type="search" 
-            placeholder="Enter your word here" 
+            placeholder="Enter your word here"
+            className="form-entry" 
             autoFocus={true}
             autoComplete="off"
             onChange={logWord}
             id="enter-word"></input>
-            <input type="submit" value="Submit"></input>
+            <input type="submit" value="Submit" className="form-btn"></input>
         </form>
         <Results results={results} />
         <Photos photos={photos} alt={word} />
