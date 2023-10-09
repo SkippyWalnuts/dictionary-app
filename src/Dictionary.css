@@ -6,6 +6,7 @@ text-align: center;
 }
 
 .Dictionary .form-entry {
+font-size: 20px;
 margin: 15px;
 min-width: 300px;
 }
@@ -13,7 +14,6 @@ min-width: 300px;
 .Dictionary .form-btn {
 background-color: #3f3d56;
 color: #c4c3c3;
-
 font-size: 18px;
 font-weight: 700;
 letter-spacing: 2px;
@@ -21,7 +21,7 @@ text-transform: uppercase;
 }
 
 @media (max-width: 760px) {
-    
+
 .Dictionary .form-entry {
 text-align: center;
 }
