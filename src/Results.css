@@ -1,5 +1,5 @@
 .Results {
-background-color: rgb(204, 204, 204, 0.9);
+background-color: rgb(204, 204, 204, 0.8);
 border-radius: 10px;
 margin-bottom: 20px;
 padding: 30px;
@@ -31,6 +31,30 @@ padding: 30px;
 
 .Results .Phonetics button:hover {
    transform: scale(1.1);
+}
+
+.Results .results-img {
+    max-width: 200px;
+}
+
+@media (max-width: 770px) {
+.Results h2 {
+    font-size: 35px;
+    text-align: center;
+}
+ 
+    .Results .Phonetics button {
+        display: block;
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0 auto;
+        padding: 4px 3px 6px;
+        
+    }
+
+    .Results .results-img {
+       display: none;
+    }
 }
 
 

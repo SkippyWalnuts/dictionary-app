@@ -7,13 +7,15 @@ export default function Results(props) {
 if (props.results) {
 return (
    <div className="Results">
+      <div className="container-fluid">
       <div className="row">
-         <div className="col">
+         <div className="col-md-7">
    <h2><strong>{props.results.word}</strong></h2>
    <Phonetics phonetic={props.results.phonetic} word={props.results.word}/>
    </div>
-   <div className="col">
-      <img src="/images/dictionary_results_undraw.svg" className="img-fluid"></img>
+   <div className="col-md">
+      <img src="/images/dictionary_results_undraw.svg" className="results-img img-fluid" alt="person showing results in a book"></img>
+   </div>
    </div>
    </div>
    {props.results.meanings.map(function(meaning, index) {

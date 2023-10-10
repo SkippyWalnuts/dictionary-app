@@ -4,15 +4,28 @@
 }
     
 .Meaning h4 {
+    font-size: 28px;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
 .Meaning p {
     font-size: 20px;
+    font-weight: 430;
 }
 
 .Meaning .Synonyms .akaExplanation {
     font-size: 15px;
     opacity: 0.8;
+}
+
+@media (max-width: 770px) {
+.Meaning h4 {
+    font-size: 23px;
+}
+
+.Meaning p {
+    font-size: 17px;
+}
 
 }

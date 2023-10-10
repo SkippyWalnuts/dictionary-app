@@ -41,7 +41,7 @@ transition: all ease-in-out 2ms;
 transform: scale(1.1);
 }
 
-.Dictionary p {
+.Dictionary .scrollSuggestion {
    font-size: 18px;
 }
 
