@@ -1,6 +1,14 @@
-.Meaning h4 {
+.Meaning {
     font-family: 'Quicksand', sans-serif;
+
+}
+    
+.Meaning h4 {
     text-transform: uppercase;
+}
+
+.Meaning p {
+    font-size: 20px;
 }
 
 .Meaning .Synonyms .akaExplanation {

@@ -1,4 +1,4 @@
-.Dictionary .Hero, .Results {
+.Dictionary .Hero {
 background-color: rgb(204, 204, 204, 0.9);
 border-radius: 10px;
 margin-bottom: 20px;
@@ -6,11 +6,13 @@ padding: 20px;
 }
 
 .Dictionary .search-form {
+margin: 20px auto 0;
+}
+
+.Dictionary .search-form, .Dictionary .scrollSuggestion {
 display: block;
 font-family: 'Quicksand', sans-serif;
-margin: 20px auto;
 text-align: center;
-
 }
 
 .Dictionary .form-entry {
@@ -37,6 +39,10 @@ transition: all ease-in-out 2ms;
 
 .Dictionary .form-btn:hover {
 transform: scale(1.1);
+}
+
+.Dictionary p {
+   font-size: 18px;
 }
 
 @media (max-width: 760px) {

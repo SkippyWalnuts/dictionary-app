@@ -50,19 +50,22 @@ if (loaded) {
 
 return (
 <div className="Dictionary">
-<div className="Hero">
-<h1>Swallow<div>-A-</div>Dictionary</h1>
-<form onSubmit={handleSubmit} id="search-form" className="search-form">
-<input type="search" 
-placeholder="Enter word here..."
-className="form-entry" 
-autoFocus={true}
-autoComplete="off"
-onChange={logWord}
-id="enter-word"></input>
-<input type="submit" value="Swallow" className="form-btn"></input>
-</form>
-</div>
+    <div className="Hero">
+    <h1>Swallow<div>-A-</div>Dictionary</h1>
+        <form onSubmit={handleSubmit} id="search-form" className="search-form">
+        <input type="search" 
+        placeholder="Enter word here..."
+        className="form-entry" 
+        autoFocus={true}
+        autoComplete="off"
+        onChange={logWord}
+        id="enter-word"></input>
+        <input type="submit" value="Swallow" className="form-btn"></input>
+        </form>
+        <div className="scrollSuggestion">
+        <p>(Scroll for results)</p>
+        </div>
+    </div>
 <Results results={results} />
 <Photos photos={photos} alt={word} />
 </div>
