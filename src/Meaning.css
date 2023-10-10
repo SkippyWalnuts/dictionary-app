@@ -1,0 +1,10 @@
+.Meaning h4 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+.Meaning .Synonyms .akaExplanation {
+    font-size: 15px;
+    opacity: 0.8;
+
+}

@@ -1,10 +1,30 @@
 .Results h2 {
     font-family: 'Merriweather', serif;
     font-size: 40px;
+    margin: 10px auto;
 }
 
-.Results .Meaning h4 {
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
+.Results .Phonetics a{
+    color: #e6e6e6;
+    text-decoration: none;
+    transition: all ease-in-out 2ms;
 }
+
+.Results .Phonetics button{
+background-color: #3f3d56;
+border-radius: 7px;
+font-size: 25px;
+font-weight: 700;
+letter-spacing: 2px;
+line-height: 32px;
+padding: 6px 4px 8px;
+text-align: center;
+transition: all ease-in-out 2ms;
+}
+
+.Results .Phonetics button:hover {
+   transform: scale(1.1);
+}
+
+
 
