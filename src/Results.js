@@ -8,7 +8,7 @@ if (props.results) {
 return (
    <div className="Results">
       <div className="scrollSuggestion mb-4">
-        <p>Results <i class="fa-solid fa-circle-down"></i></p>
+        <p>Results <i className="fa-solid fa-circle-down"></i></p>
         </div>
         <hr />
       <div className="container-fluid">
