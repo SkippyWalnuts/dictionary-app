@@ -1,0 +1,22 @@
+.Footer p {
+    color: #e6e6e6;
+    padding: 20px 0 10px;
+    text-align: center;
+}
+
+.Footer a {
+    color: #e6e6e6;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 2px 2px 5px;
+    text-decoration: none;
+    transition: all ease-in-out 2ms;
+}
+
+.Footer a:hover {
+    background-color: #e6e6e6;
+    color: #3f3d56;
+    font-weight: bolder;
+    
+}

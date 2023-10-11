@@ -65,7 +65,8 @@ transform: scale(1.1);
 }
 
 .Dictionary .Photos .results-photos {
-  border-radius: 3px;
+  border: solid 1px #ababaa;
+  border-radius: 4px;
 
 }
 

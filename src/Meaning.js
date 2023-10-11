@@ -3,6 +3,8 @@ import Synonyms from "./Synonyms";
 import "./Meaning.css";
 
 export default function Meaning(props) {
+
+  
       return (
         <div className="Meaning m-2">
             <h4>{props.partOfSpeech}</h4>
