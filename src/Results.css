@@ -1,14 +1,6 @@
-.Results {
-background-color: rgb(204, 204, 204, 0.8);
-border-radius: 10px;
-margin-bottom: 20px;
-padding: 30px;
-}
 
-.Results .scrollSuggestion {
-    font-size: 18px;
-    font-weight: 600;
- }
+
+
 
 .Results h2 {
     font-family: 'Merriweather', serif;
@@ -38,9 +30,7 @@ padding: 30px;
    transform: scale(1.1);
 }
 
-.Results .results-img {
-    max-width: 200px;
-}
+
 
 @media (max-width: 770px) {
 .Results h2 {

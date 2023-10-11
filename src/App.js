@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <img src="/images/book_undraw1.svg" className="img-fluid reading-img" alt="person reading"></img>
+     
       <Dictionary defaultWord="swallow"/>
     </div>
   );
