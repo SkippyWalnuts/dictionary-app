@@ -13,25 +13,6 @@ body {
 }
 
 
-.App h1 {
-  font-family: 'Merriweather', serif;
-  font-size: 60px;
-  font-weight: 550;
-  line-height: 1;
-  letter-spacing: 3px;
-  margin: 10px;
-  text-align: center;
-}
-
-@media (max-width: 760px) {
-
-
-.App h1 {
-  font-size: 50px;
-}
-
-
-}
 
 
   

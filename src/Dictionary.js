@@ -53,7 +53,8 @@ return (
     <div className="Hero">
 <img src="/images/book_undraw1.svg" className="img-fluid reading-img" alt="person reading"></img>
     <div className="hero-form">
-    <h1>Swallow<div>-A-</div>Dictionary</h1>
+        <h2>Did You</h2>
+    <h1>Swallow<div>-A-</div>Dictionary?</h1>
         <form onSubmit={handleSubmit} id="search-form" className="search-form">
         <input type="search" 
         placeholder="Enter word here..."
