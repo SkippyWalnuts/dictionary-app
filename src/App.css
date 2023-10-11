@@ -26,15 +26,6 @@ body {
 @media (max-width: 760px) {
 
 
-.App {
-
-  max-width: 600px;
-}
-
-.App .App-Content {
-  padding: 15px;
-}
-
 .App h1 {
   font-size: 50px;
 }

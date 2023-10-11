@@ -76,6 +76,8 @@ transform: scale(1.1);
 
   .Dictionary .Hero {
 border-radius: 0;
+margin: 50px auto;
+max-width: 100%;
   }
 
 .Dictionary .form-entry {
