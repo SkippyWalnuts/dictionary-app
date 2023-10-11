@@ -74,6 +74,10 @@ transform: scale(1.1);
 
 @media (max-width: 760px) {
 
+  .Dictionary .Hero {
+border-radius: 0;
+  }
+
 .Dictionary .form-entry {
 text-align: center;
 }
