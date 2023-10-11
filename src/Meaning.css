@@ -4,7 +4,18 @@
 }
     
 .Meaning h4 {
-    font-size: 28px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 33px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Meaning h5 {
+    font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -19,9 +30,14 @@
     opacity: 0.8;
 }
 
+.Meaning .Synonyms li {
+    font-size: 15px;
+    font-weight: 500;
+}
+
 @media (max-width: 770px) {
 .Meaning h4 {
-    font-size: 23px;
+    font-size: 22px;
 }
 
 .Meaning p {
