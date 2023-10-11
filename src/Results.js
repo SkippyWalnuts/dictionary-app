@@ -7,6 +7,10 @@ export default function Results(props) {
 if (props.results) {
 return (
    <div className="Results">
+      <div className="scrollSuggestion mb-4">
+        <p>Results <i class="fa-solid fa-circle-down"></i></p>
+        </div>
+        <hr />
       <div className="container-fluid">
       <div className="row">
          <div className="col-md-7">

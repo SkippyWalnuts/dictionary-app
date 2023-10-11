@@ -41,9 +41,7 @@ transition: all ease-in-out 2ms;
 transform: scale(1.1);
 }
 
-.Dictionary .scrollSuggestion {
-   font-size: 18px;
-}
+
 
 @media (max-width: 760px) {
 

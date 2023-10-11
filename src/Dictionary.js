@@ -31,8 +31,10 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
 
 }
 
+
 function handleSubmit(event)  {
 event.preventDefault();
+alert(`WORD DIGESTED! Look below for results...`);
 search();
 }
 
@@ -62,10 +64,7 @@ return (
         id="enter-word"></input>
         <input type="submit" value="Swallow" className="form-btn"></input>
         </form>
-        <div className="scrollSuggestion">
-        <p>(Scroll for results)</p>
         </div>
-    </div>
 <Results results={results} />
 <Photos photos={photos} alt={word} />
 </div>

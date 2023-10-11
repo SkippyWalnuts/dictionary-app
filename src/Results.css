@@ -5,6 +5,11 @@ margin-bottom: 20px;
 padding: 30px;
 }
 
+.Results .scrollSuggestion {
+    font-size: 18px;
+    font-weight: 600;
+ }
+
 .Results h2 {
     font-family: 'Merriweather', serif;
     font-size: 40px;
