@@ -3,7 +3,9 @@ import React from "react";
 export default function Photos(props) {
     if (props.photos) {
     return (
-        <section className="Photos">
+        
+        <div className="Photos">
+            <div className="col">
            {props.photos.map(function(photo, index) {
     return (
         <div className="mb-2" key={index} >
@@ -14,7 +16,8 @@ export default function Photos(props) {
     )
 })}
 
-        </section>
+        </div>
+        </div>
     );
     }
     else {

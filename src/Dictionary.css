@@ -1,12 +1,12 @@
+
 .Dictionary .Hero {
     background-color: rgb(255, 255, 255, 0.4);
-    border-radius: 15px;
+    border-radius: 10px;
     color: #3f3d56;
     display: block;
-    margin: 50px auto;
+    margin: 50px auto 80px;
     max-width: 700px;
-    padding: 20px 50px 1px;
-   
+    padding: 20px 50px;
   }
 
   .Dictionary .hero-form h1 {
@@ -29,18 +29,16 @@ font-weight: 500;
 
 .Dictionary .hero-form {
 background-color: rgb(204, 204, 204, 0.9);
-border-radius: 10px;
+border-radius: 8px;
 margin-bottom: 20px;
 padding: 20px;
 }
 
-.Dictionary .search-form {
-margin: 20px auto 0;
-}
 
-.Dictionary .search-form, .Dictionary .scrollSuggestion {
+.Dictionary .search-form, .toTopBtn  {
 display: block;
 font-family: 'Quicksand', sans-serif;
+margin: 20px auto 0;
 text-align: center;
 }
 
@@ -53,9 +51,10 @@ min-width: 300px;
 padding: 15px;
 }
 
-.Dictionary .form-btn {
+.Dictionary .form-btn, .toTopBtn {
 background-color: #3f3d56;
 border-radius: 7px;
+box-shadow: 3px 3px 3px rgb(93, 91, 112, 0.8);
 color: #e6e6e6;
 font-size: 15px;
 font-weight: 700;
@@ -66,7 +65,7 @@ text-transform: uppercase;
 transition: all ease-in-out 2ms;
 }
 
-.Dictionary .form-btn:hover {
+.Dictionary .form-btn:hover, .toTopBtn:hover {
 transform: scale(1.1);
 }
 
@@ -89,20 +88,23 @@ transform: scale(1.1);
 }
 
 
-
-@media (max-width: 760px) {
+@media (max-width: 750px) {
 
   .Dictionary .Hero {
 border-radius: 0;
 max-width: 100%;
   }
 
-  .Dictionary h1 {
+  .Dictionary .hero-form h1 {
     font-size: 50px;
   }
 
 .Dictionary .form-entry {
 text-align: center;
+}
+
+.Dictionary .Photos .results-photos {
+  display: none;
 }
 
 }

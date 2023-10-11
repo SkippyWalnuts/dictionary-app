@@ -32,7 +32,6 @@ axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
 
 function handleSubmit(event)  {
 event.preventDefault();
-alert(`DIGESTED! Look below for results...`);
 search();
 }
 
@@ -62,26 +61,32 @@ return (
         autoFocus={true}
         autoComplete="off"
         onChange={logWord}
-        id="enter-word"></input>
-        <input type="submit" value="Swallow" className="form-btn"></input>
+        id="swallow word"></input>
+        <input type="submit" value="Swallow" className="form-btn" onClick={() => {
+          window.scrollTo({top: 725, left: 0, behavior: 'smooth'});
+              }}></input>
         </form>
         </div>
-        <div className="scrollSuggestion mb-4">
-        <p>Results <i className="fa-solid fa-circle-down"></i></p>
-        </div>
+        
         </div>
 
      <div className="results-container container-fluid">
         <div className="row">
     <hr />
-    <div className="col">
+    <div className="col-md">
 <Results results={results} />
     </div>
-    <div className="col">
+    <div className="col-md">
 <Photos photos={photos} alt={word} />
     </div>
         </div>
     <hr />
+    <button className="toTopBtn"
+        onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+              }}>
+        Back to top
+      </button>
     </div>
 <Footer />
 </div>

@@ -13,22 +13,30 @@
 .Results .Phonetics button {
     background-color: #3f3d56;
     border-radius: 7px;
-    font-size: 25px;
+    box-shadow: 3px 3px 3px rgb(93, 91, 112, 0.8);
+    color: #e6e6e6;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 32px;
-    padding: 6px 4px 8px;
     text-align: center;
+    
     transition: all ease-in-out 2ms;
-}
+    }
 
 .Results .Phonetics button:hover {
    transform: scale(1.1);
 }
 
+.Results .results-img {
+    display: none;
+    margin: 0 auto;
+  min-width: 130px;
+}
 
 
-@media (max-width: 770px) {
+
+@media (max-width: 760px) {
 .Results h2 {
     font-size: 35px;
     text-align: center;
@@ -39,13 +47,15 @@
         font-size: 18px;
         line-height: 25px;
         margin: 0 auto;
-        padding: 4px 3px 6px;
+        padding: 4px 5px 6px;
         
     }
 
     .Results .results-img {
-       display: none;
+        display: block;
     }
+
+   
 }
 
 
