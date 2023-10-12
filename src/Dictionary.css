@@ -103,6 +103,10 @@ max-width: 100%;
 text-align: center;
 }
 
+.Dictionary .results-container {
+   padding: 10px 30px;
+}
+
 .Dictionary .Photos .results-photos {
   display: none;
 }
