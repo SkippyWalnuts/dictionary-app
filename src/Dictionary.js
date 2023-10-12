@@ -63,7 +63,7 @@ return (
         onChange={logWord}
         id="swallow word"></input>
         <input type="submit" value="Swallow" className="form-btn" onClick={() => {
-          window.scrollTo({top: 725, left: 0, behavior: 'smooth'});
+          window.scrollTo({top: 705, left: 0, behavior: 'smooth'});
               }}></input>
         </form>
         </div>

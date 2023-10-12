@@ -4,7 +4,7 @@
     border-radius: 10px;
     color: #3f3d56;
     display: block;
-    margin: 50px auto 80px;
+    margin: 50px auto 100px;
     max-width: 700px;
     padding: 20px 50px;
   }
@@ -22,7 +22,7 @@
       text-align: center;
   }
 
-  .Dictionary h2 {
+  .Dictionary .hero-form h2 {
 font-size: 35px;
 font-weight: 500;
   }
@@ -93,15 +93,29 @@ transform: scale(1.1);
   .Dictionary .Hero {
 border-radius: 0;
 max-width: 100%;
+margin-bottom: 150px;
   }
 
   .Dictionary .hero-form h1 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+
+  .Dictionary .hero-form h2 {
+    font-size: 25px;
+  }
+
+  .Dictionary .search-form {
+    margin: 10px auto;
   }
 
 .Dictionary .form-entry {
-text-align: center;
-}
+  
+  font-size: 18px;
+  
+ 
+  min-width: 150px;
+  padding: 10px;
+  }
 
 .Dictionary .results-container {
    padding: 10px 30px;
