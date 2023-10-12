@@ -8,7 +8,7 @@ export default function Footer() {
         {""}🎨{" "}
         <a
           href="https://github.com/SkippyWalnuts/dictionary-app"
-          className="gitHub.source.link"
+          id="link to github page with source code for current website"
           target="_blank"
           rel="true noopener noreferrer"
         >
@@ -18,6 +18,7 @@ export default function Footer() {
         by 
         {" "}
         <a href="https://visionary-dragon-63ebd9.netlify.app/"
+        id="link to Becca Early's website portfolio"
          target="_blank"
          rel="true noopener noreferrer">
           Becca Early

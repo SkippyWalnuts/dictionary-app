@@ -15,7 +15,7 @@ return (
    <Phonetics phonetic={props.results.phonetic} word={props.results.word}/>
    </div>
    <div className="col">
-      <img src="/images/dictionary_results_undraw.svg" className="results-img img-fluid" alt="person showing results in a book"></img>
+      <img src="/images/dictionary_results_undraw.svg" id="drawing of person presenting book search results" className="results-img img-fluid" alt="person showing results in a book"></img>
    </div>
    </div>
    </div>

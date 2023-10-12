@@ -54,15 +54,16 @@ return (
     <div className="hero-form">
         <h2>Did You</h2>
     <h1>Swallow<div>-A-</div>Dictionary?</h1>
-        <form onSubmit={handleSubmit} id="search-form" className="search-form">
+        <form onSubmit={handleSubmit} id="word search-form" className="search-form">
         <input type="search" 
+        id="word entry for search-form"
         placeholder="Enter word here..."
         className="form-entry" 
         autoFocus={true}
         autoComplete="off"
         onChange={logWord}
-        id="swallow word"></input>
-        <input type="submit" value="Swallow" className="form-btn" onClick={() => {
+        ></input>
+        <input type="submit" id="submit button for word search-form, scrolls to results below" value="Swallow" className="form-btn" onClick={() => {
           window.scrollTo({top: 705, left: 0, behavior: 'smooth'});
               }}></input>
         </form>
@@ -82,6 +83,7 @@ return (
         </div>
     <hr />
     <button className="toTopBtn"
+    id="button to scroll window to top of page, back to search-form"
         onClick={() => {
           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
               }}>
