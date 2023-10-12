@@ -110,7 +110,7 @@ margin-bottom: 120px;
 
 .Dictionary .form-entry {
   font-size: 18px;
-  min-width: 150px;
+  margin: 5px auto 10px;
   padding: 10px;
 }
 
